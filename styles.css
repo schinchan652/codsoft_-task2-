@@ -1,0 +1,174 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #DFC8BC;
+    color: black;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #D6A393;
+    color: #FFF;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #FFF;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #F4E7DA;
+    border-radius: 10px;
+}
+
+section h2 {
+    color: #AF7B61;
+}
+
+.info-box {
+    border: 2px solid #AF7B61;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.menu-category {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 2px solid #AF7B61;
+    border-radius: 10px;
+    background-color: #FFF;
+    min-width: 250px;
+}
+
+.menu-category h3 {
+    color: #9A9492;
+    border-bottom: 2px solid #AF7B61;
+    padding-bottom: 5px;
+}
+
+#menu ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#menu ul li {
+    background-color: #D6A393;
+    color: #FFF;
+    margin: 5px 0;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.gallery-item {
+    margin: 10px;
+    width: 30%;
+    background-color: #FFF;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.gallery-item img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.contact-info {
+    border: 2px solid #AF7B61;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #FFF;
+}
+
+.circle-info {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 50%;
+    background-color: #AF7B61;
+    color: #FFF;
+    text-align: center;
+    width: 50%;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin: 10px 0 5px;
+}
+
+form input, form button {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    border: 1px solid #CCC;
+}
+
+form button {
+    background-color: #AF7B61;
+    color: #FFF;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #9A9492;
+}
+
+footer {
+    background-color: #D6A393;
+    color: #FFF;
+    text-align: center;
+    padding: 10px 0;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+footer ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
